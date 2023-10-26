@@ -1,0 +1,108 @@
+.welcome{
+    background-color: #35BA9B; 
+    height: 900px;
+    color: white;
+    text-align: center;
+    background-attachment:fixed;
+    
+}
+
+
+img{
+    position: relative;
+    top: 50px;
+}
+
+body{
+    height: 2000px;
+}
+
+
+.lao{
+    color: white;
+    position: relative;
+    top: 50px;
+}
+
+.seco{
+    text-align: center;
+    background: url(https://media.discordapp.net/attachments/1134058154733355038/1166700326863249559/Frame_67.png?ex=654b715a&is=6538fc5a&hm=aabf6267b0d2d93e06839425511a66cbe37df608e0706cb392d14935351f62cc&=&width=1342&height=671);
+    height: 1500px;
+    background-attachment: fixed;
+}
+
+.lio{
+    color: white;
+    position: relative;
+    
+    top: 50px;
+    background-color: #3AADD9;
+    border-radius: 550px;
+    
+
+}
+
+.soon{
+    position: relative;
+    top: 100px;
+    background-color: brown;
+    color: white;
+    text-align: center;
+    height: 300px;
+    width: 00px;
+
+    
+}
+
+.news{
+    position: relative;
+    top: 10px;
+    font-size:25px;
+}
+
+.tba{
+    position: relative;
+    top: 10px;
+}
+
+.fday{
+    position:relative;
+    
+    top: 100px;
+    background: rgb(70, 206, 172);
+background: linear-gradient(328deg, #F5B945 0%, #FDCD56 100%);
+    height: 500px;
+    width: 500px;
+    color: white;
+    border-radius: 30px;
+}
+
+.text2{
+    position: relative;
+    top: 15px;
+    color: white;
+}
+
+hr{
+    position: relative;
+    top: 5px;
+    height:4px;
+    background-color: black;
+}
+
+.msg{
+    font-size: 30px;
+}
+
+.delto{
+    position: relative;
+    bottom: 400px;
+    left: 600px;
+    background: rgb(70, 206, 172);
+background: linear-gradient(328deg, #3AADD9 0%, #4FC0E8 100%);
+    height: 200px;
+    width: 500px;
+    border-radius: 30px;
+    font-size: larger;
+    color: white;
+}
