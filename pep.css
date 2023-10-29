@@ -1,0 +1,125 @@
+
+nav{
+    background-color: grey;
+    
+}
+
+.pop {
+    color: black;
+}
+
+.drims{
+
+    color: white;
+    text-align: center;
+    background-color: #35BA9B;
+    height: 900px;
+}
+
+body{
+    height: 2000px;
+}
+
+.uy{
+    position: relative;
+    top: 25px;
+}
+
+span{
+    font-weight: 500;
+}
+
+.seco{
+    
+    text-align: center;
+    position: relative;
+    bottom: 46.4px;
+    background: url(https://media.discordapp.net/attachments/1134058154733355038/1166700326863249559/Frame_67.png?ex=654b715a&is=6538fc5a&hm=aabf6267b0d2d93e06839425511a66cbe37df608e0706cb392d14935351f62cc&=&width=1342&height=671);
+    height: 1500px;
+    background-attachment: fixed;
+    
+}
+
+.container{
+    position: relative;
+    top: 20px;
+}
+
+.opka{
+    background-color: #35BA9B;
+}
+
+.tri{
+    text-align: center;
+    background: url(https://media.discordapp.net/attachments/1134058128846106684/1167988135255351418/discordtab.png?ex=655020b7&is=653dabb7&hm=c9db0bbb60f047c5ee0af51eefab4db6625297791092764ce21e3b67e4446044&=&width=1228&height=671);
+    height: 700px;
+    background-attachment: fixed;
+    position: relative;
+    bottom: 0px;
+    color: white;
+}
+
+.withbg{
+    background-color: #212E71;
+    color: white;
+    height: 80px;
+}
+
+.bebr{
+    background: linear-gradient(328deg, #F5B945 0%, #FDCD56 100%);
+    height: 500px;
+    width: 500px;
+    border-radius: 20px;
+}
+
+.tat{
+    position: relative;
+    top: 15px;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 45px;
+}
+
+hr {
+    position: relative;
+    top: 5px;
+    height: 4px;
+    background-color: grey;
+    border: 0px;
+}
+.desc{
+    color: white;
+    font-size: 20px;
+}
+
+input{
+    font-size: 30px;
+    border: 0px;
+    border-radius: 10px;
+}
+
+input:hover{
+    cursor: pointer;
+}
+
+.bebr{
+    margin: 0 auto ;
+    height: 320px;
+}
+
+@media (max-width: 720px) {
+    .bebr{
+        width: 400px;
+        height: 350px;
+        margin: 0 auto ;
+    }
+}
+
+@media (max-width: 480px) {
+    .bebr{
+        width: 200px;
+        height: 350px;
+        margin: 0 auto ;
+        font-size: 5px;
+    }
+}
