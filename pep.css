@@ -107,6 +107,19 @@ input:hover{
     height: 320px;
 }
 
+.pop{
+    width: 5px;
+}
+
+.soc{
+
+    color: white;
+    text-align: center;
+    background-color: #35BA9B;
+    height: 400px;
+}
+
+
 @media (max-width: 720px) {
     .bebr{
         width: 400px;
@@ -116,10 +129,41 @@ input:hover{
 }
 
 @media (max-width: 480px) {
+    
     .bebr{
+        
         width: 200px;
-        height: 350px;
+        height: 600px;
         margin: 0 auto ;
         font-size: 5px;
+        
+
+    }
+
+    input{
+        font-size: medium;
+    }
+    .withbg{
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 280px) {
+    
+    .bebr{
+        
+        width: 200px;
+        height: 600px;
+        margin: 0 auto ;
+        font-size: 5px;
+        
+
+    }
+
+    input{
+        font-size: medium;
+    }
+    .withbg{
+        font-size: 30px;
     }
 }
