@@ -1,6 +1,6 @@
 
 nav{
-    background-color: grey;
+    background-color: #212121;
     
 }
 
@@ -34,8 +34,8 @@ span{
     text-align: center;
     position: relative;
     bottom: 46.4px;
-    background: url(https://media.discordapp.net/attachments/1134058154733355038/1166700326863249559/Frame_67.png?ex=654b715a&is=6538fc5a&hm=aabf6267b0d2d93e06839425511a66cbe37df608e0706cb392d14935351f62cc&=&width=1342&height=671);
-    height: 1500px;
+    background: url(https://media.discordapp.net/attachments/1134058128846106684/1168517487894200370/DW_BG_RPT1.png?ex=65520db7&is=653f98b7&hm=c2cb961168a299462c549d7f33fe40dd34c480c72a56dea980a39710b4e9dcdd&=&width=1193&height=671);
+    height: 1900px;
     background-attachment: fixed;
     
 }
@@ -116,26 +116,103 @@ input:hover{
     color: white;
     text-align: center;
     background-color: #35BA9B;
-    height: 400px;
+    height: 800px;
 }
+
+.bloo{
+    position: relative; top: 0px;
+}
+
+.tab:hover{
+    cursor: pointer;
+}
+
+.tab{
+    height: 190px;
+}
+
+.thre{
+    text-align: center;
+    height: 5000px;
+    background: url(https://media.discordapp.net/attachments/1134058128846106684/1168432516353507379/Star_Background.png?ex=6551be94&is=653f4994&hm=660a114e00e418121b3ad2e1f0e9079f143f82d5acafdb0782f73041b3e278d6&=&width=1228&height=671);
+    background-attachment: fixed;
+}
+
+.tutor{
+    background-color: #212121;
+    border-radius: 40px;
+}
+
+.fop{
+    font-size: 50px;
+}
+.sidenav{
+   background: url(https://cdn.discordapp.com/attachments/1168499616518504468/1168528202663219220/run_sack_run_bg_full_width_0.jpeg?ex=655217b1&is=653fa2b1&hm=650b5c01dc43124fdabe88f70c4f9d42b40aafd4cf5586b550c6b83abb9aac32&);
+   background-position: top right;
+   
+}
+
+
 
 
 @media (max-width: 720px) {
-    .bebr{
-        width: 400px;
-        height: 350px;
-        margin: 0 auto ;
+
+    .kokl{
+        font-size: 40px;
     }
+
+    .seco{
+        height: 3000px;
+    }
+
+    .fop{
+        font-size: 25px;
+    }
+
+    .tab{
+        height: 130px;
+    }
+
+    .bebr{
+        background: linear-gradient(328deg, #F5B945 0%, #FDCD56 100%);
+        height: 310px;
+        width: 500px;
+        border-radius: 5px;
+    }
+    
+
+    .bloo{
+        position: relative; bottom: 380px;
+    } 
+
+    h2{
+        font-size: 50px;
+    }
+
 }
 
+
+
 @media (max-width: 480px) {
+
+    .kokl{
+        font-size: 20px;
+    }
+    .fop{
+        font-size: 35px;
+    }
+
+    .pipa{
+        height: 250px;
+    }
     
     .bebr{
         
         width: 200px;
-        height: 600px;
+        height: 430px;
         margin: 0 auto ;
         font-size: 5px;
+        border-radius: 10px;
         
 
     }
@@ -146,14 +223,53 @@ input:hover{
     .withbg{
         font-size: 45px;
     }
+    .uy{
+        font-size: 45px;
+    }
+
+    .seco{
+    
+        text-align: center;
+        position: relative;
+        bottom: 46.4px;
+        height: 2500px;
+        background-attachment: fixed;
+        
+    }
+
+    .bloo{
+        position: relative; bottom: 380px;
+    }  
+    
+    h2{
+        font-size: 50px;
+    }
+
+    .drims{
+        height: 1500px;
+    }
+
+    .tab{
+        height: 110px;
+    }
+
 }
 
 @media (max-width: 280px) {
+    .fop{
+        font-size: 26px;
+    }
+
+
+
+    .pipa{
+        height: 150px;
+    }
     
     .bebr{
         
         width: 200px;
-        height: 600px;
+        height: 00px;
         margin: 0 auto ;
         font-size: 5px;
         
@@ -166,4 +282,33 @@ input:hover{
     .withbg{
         font-size: 30px;
     }
+
+    .seco{
+    
+        text-align: center;
+        position: relative;
+        bottom: 46.4px;
+        height: 3500px;
+        background-attachment: fixed;
+        
+    }
+    .uy{
+        font-size: 30px;
+    }
+
+    .drims{
+        height: 1500px;
+    }
+
+    .tab{
+        height: 90px;
+    }
 }
+
+
+@media (max-width: 344px) {
+    .tab{
+        height: 80px;
+    }
+}
+

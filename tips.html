@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tutorials</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!--Import materialize.css-->
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="pep.css">
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  </head>
+
+  <body>
+    <nav>
+      <div class="nav-wrapper">
+        <a href="#!" class="brand-logo">DreamWeavers</a>
+        <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+        <ul class="right hide-on-med-and-down">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="Announcements.html">Announcements</a></li>
+          <li><a href="downloads.html">Downloads</a></li>
+          <li><a href="Savedata.html">LBPComunity savedata</a></li>
+          <li><a href="tutorials.html">LBP Tutorials</a></li>
+        </ul>
+      </div>
+    </nav>
+  
+    <ul class="sidenav" id="mobile-demo">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Announcements.html">Announcements</a></li>
+      <li><a href="downloads.html">Downloads</a></li>
+      <li><a href="Savedata.html">LBPComunity savedata</a></li>
+      <li><a href="tutorials.html">LBP Tutorials</a></li>
+    </ul>
+    
+    <div class="thre">
+      
+
+        <h1 style="color: white;"><br> <b>TIPS for ALL games!</b></h1>
+        <div class="container">
+          <div class="card hoverable big">
+              <div class="card-image">
+                  <img src="https://web.archive.org/web/20190824010101/http://www.trixelcreative.com/uploads/2/4/8/3/24831384/littlebigplanet-3-us-20180724181859_orig.jpg" alt="">
+                  <span class="card-title">USE GRID!</span>
+              </div>
+              <div class="card-content">
+                When creating a level, using a grid is crucial for precise alignment of materials, objects, stickers/decorations, and logic. It simplifies the process and ensures everything is properly aligned.<br> <br>   <b>To activate the grid:</b> <br> <br>
+                Go to Create Mode <br>
+                Pause the game <br>  <br>
+               <b> Choose Small, Medium, or Big for the grid size <br>
+                Small is commonly recommended for most cases.</b>
+              </div>
+          </div>
+      </div>
+      
+      <div class="container">
+        <div class="card hoverable big">
+            <div class="card-image">
+                <img src="https://web.archive.org/web/20190824010101/http://www.trixelcreative.com/uploads/2/4/8/3/24831384/tutorial-grid-platform_orig.jpg" alt="">
+                <span class="card-title">Grid Placements</span>
+            </div>
+            <div class="card-content">
+              When creating player platforms, it's important to consider the size of materials. Instead of sticking to straight or perfect slope walkways, adding curves and hills can enhance the design. However, if it doesn't fit your level's aesthetic, it's okay to skip it. The average size for platforms and beams/pillars is usually 4x4 small grid blocks when using square-shaped materials from your popit.
+            </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="card hoverable big">
+            <div class="card-image">
+                <img src="https://web.archive.org/web/20190824010101/http://www.trixelcreative.com/uploads/2/4/8/3/24831384/tutorial-modular_orig.jpg" alt="">
+                <span class="card-title">Modular Level Design!</span>
+            </div>
+            <div class="card-content">
+              Modular level design is fancy, but simple! Keep pieces separate, avoid unnecessary glue, and enjoy the freedom to revise. Just remember, excessive glue hampers performance. <br> <br> <b> this video is made in LittleBigPlanet 2, anti-gravity tweakers are no longer needed (LBP3, lbp vita) . Just tweak the object to be Static for the same effect!  </b>
+            </div>
+        </div>
+    </div>
+    
+    <div class="container">
+      <div class="card hoverable big">
+          <div class="card-image">
+              <img src="https://web.archive.org/web/20190824010101/http://www.trixelcreative.com/uploads/2/4/8/3/24831384/theatrewipmay2018_orig.jpg" alt="">
+              <span class="card-title">Optimization</span>
+          </div>
+          <div class="card-content">
+            Optimization is crucial for LBP3 on both PS3 and PS4 consoles to ensure a playable experience for all players. Regardless of the console, it's important to prioritize optimization.
+    
+          </div>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div class="card hoverable big">
+          <div class="card-image">
+              <img src="https://web.archive.org/web/20190824010101/http://www.trixelcreative.com/uploads/2/4/8/3/24831384/tutorial-dephysicalize_orig.jpg" alt="">
+              <span class="card-title">Dephysicalizing</span>
+          </div>
+          <div class="card-content">
+            keep static and dephysicalize what players don't touch or need collision with; dephysicalizing cosmetic elements improves performance. <br><br> <B>FOR EXMAPLE</B>  <br> <br>
+            if you got effects like rain, sparkles, fog, etc., disable collision for 'em.
+    background objects out of reach, like books or untouched ceilings, should be dephysicalized too. game knows hitbox not needed, visuals stay intact.
+    
+          </div>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div class="card hoverable big">
+          <div class="card-image">
+              <img src="https://cdn.discordapp.com/attachments/1134058128846106684/1168520061871460413/Frame_171.png?ex=6552101c&is=653f9b1c&hm=78f3675e949cfe04f093edd9214bf2e9889ff24b020d921b2c4edb5036d39b42&" alt="">
+              <span class="card-title">DONT GLUE!!!</span>
+          </div>
+          <div class="card-content">
+            keep things unglued; lag happens with too many glued objects on-screen; <br>
+             set things to Static if not meant to move; <br>
+              works with Modular Level Design.
+    
+    
+          </div>
+      </div>
+    </div>
+    
+    <div class="container">
+      <div class="card hoverable big">
+          <div class="card-image">
+              <img src="https://web.archive.org/web/20190824010101/http://www.trixelcreative.com/uploads/2/4/8/3/24831384/rtc-idea-1_orig.jpg" alt="">
+              <span class="card-title">Gameplay Motifs</span>
+          </div>
+          <div class="card-content">
+            Motifing is a common level design practice used in the industry! <br><br>
+            create gameplay motifs by outlining the basics on cardboard, allowing for easy editing and independent development; plug the finalized idea into the desired area of your level. <br>
+    
+    
+    
+          </div>
+      </div>
+    </div>
+    
+    
+      </div>
+      
+    
+
+   
+
+
+
+   
+
+
+
+
+
+
+
+
+    <!--JavaScript at end of body for optimized loading-->
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+          var elems = document.querySelectorAll('.sidenav');
+          var instances = M.Sidenav.init(elems);
+        });
+      
+        // Or with jQuery
+      
+        $(document).ready(function(){
+          $('.sidenav').sidenav();
+          Materialize.FadeInImage('#FadeImg');
+        });
+        
+    
+      </script>
+
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  </body>
+</html>
