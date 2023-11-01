@@ -156,6 +156,9 @@ input:hover{
 
 
 @media (max-width: 720px) {
+    iframe{
+        width: 340px;
+    }
 
     .kokl{
         font-size: 40px;
@@ -194,6 +197,9 @@ input:hover{
 
 
 @media (max-width: 480px) {
+    iframe{
+        width: 240px;
+    }
 
     .kokl{
         font-size: 20px;
@@ -307,6 +313,10 @@ input:hover{
 
 
 @media (max-width: 344px) {
+
+    iframe{
+        width: 140px;
+    }
     .tab{
         height: 80px;
     }
